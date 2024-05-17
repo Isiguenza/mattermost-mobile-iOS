@@ -44,6 +44,9 @@ ios/*
 **/fastlane/*
 fastlane/*
 
+**/ios/*
+ios/*
+
 # Android/IntelliJ
 #
 .idea
