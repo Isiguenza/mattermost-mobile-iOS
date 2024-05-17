@@ -1194,8 +1194,8 @@
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			packageReferences = (
-				7FD4822A2864D73300A5B18B /* XCRemoteSwiftPackageReference "OpenGraph" */,
-				27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+				7FD4822A2864D73300A5B18B /* XCRemoteSwiftPackageReference "OpenGraph.git" */,
+				27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa.git" */,
 			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
@@ -1946,7 +1946,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 522;
-				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1967,7 +1967,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ioslab.chat;
 				PRODUCT_NAME = Mattermost;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1990,7 +1990,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 522;
-				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2008,7 +2008,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ioslab.chat;
 				PRODUCT_NAME = Mattermost;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2041,7 +2041,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
@@ -2056,7 +2056,7 @@
 					"$(inherited)",
 					"-DFB_SONARKIT_ENABLED=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ioslab.chat.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2089,7 +2089,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
@@ -2100,7 +2100,7 @@
 				);
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ioslab.chat.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2134,7 +2134,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 522;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MattermostShare/Info.plist;
@@ -2147,7 +2147,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta.MattermostShare;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ioslab.chat.MattermostShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2183,7 +2183,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 522;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MattermostShare/Info.plist;
@@ -2195,7 +2195,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.rnbeta.MattermostShare;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ioslab.chat.MattermostShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2361,7 +2361,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+		27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
 			requirement = {
@@ -2369,7 +2369,7 @@
 				version = 8.21.0;
 			};
 		};
-		7FD4822A2864D73300A5B18B /* XCRemoteSwiftPackageReference "OpenGraph" */ = {
+		7FD4822A2864D73300A5B18B /* XCRemoteSwiftPackageReference "OpenGraph.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/satoshi-takano/OpenGraph.git";
 			requirement = {
@@ -2382,12 +2382,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		27C667A229523ECA00E590D5 /* Sentry */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			package = 27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa.git" */;
 			productName = Sentry;
 		};
 		27C667A429523F0A00E590D5 /* Sentry */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			package = 27C667A129523ECA00E590D5 /* XCRemoteSwiftPackageReference "sentry-cocoa.git" */;
 			productName = Sentry;
 		};
 		49AE370026D4455D00EF4E52 /* Gekidou */ = {
@@ -2404,7 +2404,7 @@
 		};
 		7FD4822B2864D73300A5B18B /* OpenGraph */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7FD4822A2864D73300A5B18B /* XCRemoteSwiftPackageReference "OpenGraph" */;
+			package = 7FD4822A2864D73300A5B18B /* XCRemoteSwiftPackageReference "OpenGraph.git" */;
 			productName = OpenGraph;
 		};
 /* End XCSwiftPackageProductDependency section */
