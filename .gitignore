@@ -38,6 +38,9 @@ project.xcworkspace
 ios/Pods
 .podinstall
 ios/.xcode.env.local
+ios/*
+
+**/package-lock.json
 
 # Android/IntelliJ
 #
@@ -85,6 +88,9 @@ tags
 **/fastlane/screenshots
 **/fastlane/test_output
 **/fastlane/.env
+
+
+**/fastlane/Gemfile.lock
 
 # Sentry
 android/sentry.properties
