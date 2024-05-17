@@ -41,6 +41,8 @@ ios/.xcode.env.local
 ios/*
 
 **/package-lock.json
+**/fastlane/*
+fastlane/*
 
 # Android/IntelliJ
 #
